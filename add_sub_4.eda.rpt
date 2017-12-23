@@ -1,0 +1,122 @@
+EDA Netlist Writer report for add_sub_4
+Mon Jan 27 00:44:48 2014
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. Timing Analysis Settings
+  6. Timing Analysis Generated Files
+  7. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                             ;
++--------------------------------+---------------------------------------+
+; EDA Netlist Writer Status      ; Successful - Mon Jan 27 00:44:48 2014 ;
+; Revision Name                  ; add_sub_4                             ;
+; Top-level Entity Name          ; add_sub_4                             ;
+; Family                         ; FLEX10K                               ;
+; Simulation Files Creation      ; Successful                            ;
+; Timing Analysis Files Creation ; Successful                            ;
++--------------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                               ;
++--------------------------------------------------------------------------------------------+----------------------+
+; Option                                                                                     ; Setting              ;
++--------------------------------------------------------------------------------------------+----------------------+
+; Tool Name                                                                                  ; Active-HDL (Verilog) ;
+; Generate netlist for functional simulation only                                            ; Off                  ;
+; Time scale                                                                                 ; 1 ps                 ;
+; Truncate long hierarchy paths                                                              ; Off                  ;
+; Map illegal HDL characters                                                                 ; Off                  ;
+; Flatten buses into individual nodes                                                        ; Off                  ;
+; Maintain hierarchy                                                                         ; Off                  ;
+; Bring out device-wide set/reset signals as ports                                           ; Off                  ;
+; Enable glitch filtering                                                                    ; Off                  ;
+; Do not write top level VHDL entity                                                         ; Off                  ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                  ;
+; Architecture name in VHDL output netlist                                                   ; structure            ;
++--------------------------------------------------------------------------------------------+----------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                               ;
++------------------------------------------------------------------------------------------+
+; Generated Files                                                                          ;
++------------------------------------------------------------------------------------------+
+; E:/workspaces/verilog workspace/add substract 4 bit/simulation/activehdl/add_sub_4.vo    ;
+; E:/workspaces/verilog workspace/add substract 4 bit/simulation/activehdl/add_sub_4_v.sdo ;
++------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------+
+; Timing Analysis Settings                                  ;
++-------------------------------------+---------------------+
+; Option                              ; Setting             ;
++-------------------------------------+---------------------+
+; Tool Name                           ; PrimeTime (Verilog) ;
+; Time scale                          ; 1 ps                ;
+; Truncate long hierarchy paths       ; Off                 ;
+; Map illegal HDL characters          ; Off                 ;
+; Flatten buses into individual nodes ; Off                 ;
++-------------------------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Timing Analysis Generated Files                                                         ;
++-----------------------------------------------------------------------------------------+
+; Generated Files                                                                         ;
++-----------------------------------------------------------------------------------------+
+; E:/workspaces/verilog workspace/add substract 4 bit/timing/primetime/add_sub_4.vo       ;
+; E:/workspaces/verilog workspace/add substract 4 bit/timing/primetime/add_sub_4_v.sdo    ;
+; E:/workspaces/verilog workspace/add substract 4 bit/timing/primetime/add_sub_4_pt_v.tcl ;
++-----------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II EDA Netlist Writer
+    Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
+    Info: Processing started: Mon Jan 27 00:44:47 2014
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off add_sub_4 -c add_sub_4
+Info: Generated files "add_sub_4.vo" and "add_sub_4_v.sdo" in directory "E:/workspaces/verilog workspace/add substract 4 bit/simulation/activehdl/" for EDA simulation tool
+Info: Generated files "add_sub_4.vo" and "add_sub_4_v.sdo" in directory "E:/workspaces/verilog workspace/add substract 4 bit/timing/primetime/" for EDA timing analysis tool
+Warning: Expected ENABLE_CLOCK_LATENCY to be set to ON but is set to OFF
+Info: Generated PrimeTime Tcl script file E:/workspaces/verilog workspace/add substract 4 bit/timing/primetime/add_sub_4_pt_v.tcl
+Info: Quartus II EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 153 megabytes
+    Info: Processing ended: Mon Jan 27 00:44:48 2014
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

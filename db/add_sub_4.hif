@@ -1,0 +1,71 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+18
+1133
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+altsyn.lmf
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+7483
+# storage
+db|add_sub_4.(1).cnf
+db|add_sub_4.(1).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|7483.bdf
+6655882f494cd08fd53acb32ceb817fb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7483:inst
+}
+# lmf
+c:|altera|81|quartus|lmf|altsyn.lmf
+32a512b4b4798678355b65114155d5b6
+# macro_sequence
+
+# end
+# entity
+add_sub_4
+# storage
+db|add_sub_4.(0).cnf
+db|add_sub_4.(0).cnf
+# case_insensitive
+# source_file
+add_sub_4.bdf
+f365e49da86fa098c561169f1e7728b6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# lmf
+c:|altera|81|quartus|lmf|altsyn.lmf
+32a512b4b4798678355b65114155d5b6
+# macro_sequence
+
+# end
+# complete
+
